@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12D78" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="KIh-3V-xxf">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Ff0-M1-wts">
+            <objects>
+                <viewController id="Zrp-Ji-dhn" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qxb-n8-gl5">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ikc-jg-ZL0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6tu-qr-1t5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="819" y="51"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="IVa-2E-Ysw">
+            <objects>
+                <navigationController id="KIh-3V-xxf" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="40V-5Y-Duy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <outlet property="delegate" destination="nPO-SW-IKJ" id="Nej-81-LXC"/>
+                        <segue destination="Zrp-Ji-dhn" kind="relationship" relationship="rootViewController" id="X49-MD-xAZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RGc-M5-Kqp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="nPO-SW-IKJ" customClass="BGInfoNavigationControllerDelegate"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="51"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="BGInfoNavigationControllerDelegate" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BGInfoNavigationControllerDelegate.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

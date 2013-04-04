@@ -8,13 +8,10 @@
 
 #import "BGAppDelegate.h"
 
-#import "BGInfoViewController.h"
-
 @implementation BGAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    
     return YES;
 }
 
