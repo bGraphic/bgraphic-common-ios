@@ -26,6 +26,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    
+    [self.infoText setText:NSLocalizedString(@"info_text", nil)];
+    
+    [self.rateAppButton setTitle:NSLocalizedString(@"rate_app", nil) forState:UIControlStateNormal];
+    [self.shareButton setTitle:NSLocalizedString(@"share_app", nil) forState:UIControlStateNormal];
+    [self.supportButton setTitle:NSLocalizedString(@"support", nil) forState:UIControlStateNormal];
+    [self.moreAppsButton setTitle:NSLocalizedString(@"more_apps", nil) forState:UIControlStateNormal];
 }
 
 - (void)viewDidUnload
@@ -48,13 +55,6 @@
 {
     if(infoDict)
         _infoDict = infoDict;
-    
-//    [self.infoText setText:NSLocalizedStringFromTable(@"info_text", @"Localizable-info", nil)];
-//    
-//    [self.rateAppButton setTitle:NSLocalizedString(@"rate_app", nil) forState:UIControlStateNormal];
-//    [self.shareButton setTitle:NSLocalizedString(@"share_app", nil) forState:UIControlStateNormal];
-//    [self.supportButton setTitle:NSLocalizedString(@"support", nil) forState:UIControlStateNormal];
-//    [self.moreAppsButton setTitle:NSLocalizedString(@"more_apps", nil) forState:UIControlStateNormal];
 }
 
 - (IBAction)rateAppAction:(id)sender {
