@@ -16,8 +16,17 @@ static NSString * const kBGBackgroundImage = @"BG-background.png";
 {
     UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:kBGBackgroundImage]];
     backgroundView.alpha = 0.6;
+    backgroundView.contentMode = UIViewContentModeScaleAspectFill;
     
     return backgroundView;
+}
+
++ (void) addBackgroundToView:(UIView *) view
+{
+    UIView *backgroundView = [BGCommonGraphics backgroundView];
+    backgroundView.frame = view.bounds;
+    
+    [view insertSubview:backgroundView atIndex:0];
 }
 
 @end

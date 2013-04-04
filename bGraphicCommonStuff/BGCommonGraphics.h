@@ -12,4 +12,6 @@
 
 + (UIImageView *) backgroundView;
 
++ (void) addBackgroundToView:(UIView *) view;
+
 @end

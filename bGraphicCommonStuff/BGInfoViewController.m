@@ -8,6 +8,7 @@
 
 #import "BGInfoViewController.h"
 #import "TestFlight.h"
+#import "BGCommonGraphics.h"
 
 @interface BGInfoViewController ()
 -(BOOL)openUrl:(NSString *)urlString;
@@ -33,6 +34,8 @@
     [self.shareButton setTitle:NSLocalizedString(@"share_app", nil) forState:UIControlStateNormal];
     [self.supportButton setTitle:NSLocalizedString(@"support", nil) forState:UIControlStateNormal];
     [self.moreAppsButton setTitle:NSLocalizedString(@"more_apps", nil) forState:UIControlStateNormal];
+    
+    [BGCommonGraphics addBackgroundToView:self.view];
 }
 
 - (void)viewDidUnload
