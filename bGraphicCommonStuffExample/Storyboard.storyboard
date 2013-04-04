@@ -11,7 +11,16 @@
                     <view key="view" contentMode="scaleToFill" id="qxb-n8-gl5">
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.60000000000000009" contentMode="scaleToFill" image="BG-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="FTd-9h-zcr"/>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FTd-9h-zcr" firstAttribute="trailing" secondItem="qxb-n8-gl5" secondAttribute="trailing" type="default" id="2Lq-Sx-QIS"/>
+                            <constraint firstItem="FTd-9h-zcr" firstAttribute="top" secondItem="qxb-n8-gl5" secondAttribute="top" type="default" id="LvA-C0-V9Y"/>
+                            <constraint firstItem="FTd-9h-zcr" firstAttribute="bottom" secondItem="qxb-n8-gl5" secondAttribute="bottom" type="default" id="Oai-Du-e4J"/>
+                            <constraint firstItem="FTd-9h-zcr" firstAttribute="leading" secondItem="qxb-n8-gl5" secondAttribute="leading" type="default" id="fDV-aF-zkj"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ikc-jg-ZL0"/>
                 </viewController>
@@ -40,9 +49,15 @@
             <point key="canvasLocation" x="293" y="51"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="BG-background.png" width="640" height="980"/>
+    </resources>
     <classes>
         <class className="BGInfoNavigationControllerDelegate" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BGInfoNavigationControllerDelegate.h"/>
+        </class>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
         </class>
     </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

@@ -56,7 +56,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<object class="NSCustomResource" key="IBUIImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">GUI-911_background.png</string>
+							<string key="NSResourceName">BG-background.png</string>
 						</object>
 					</object>
 					<object class="IBUILabel" id="144506335">
@@ -219,7 +219,7 @@
 						<reference key="IBUINormalTitleShadowColor" ref="828081709"/>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">GUI-911_logo.png</string>
+							<string key="NSResourceName">BG-logo.png</string>
 						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
 							<int key="type">2</int>
@@ -238,6 +238,7 @@
 						<string key="NSFrame">{{256, 328}, {43, 37}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
+						<reference key="NSNextKeyView"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<int key="IBUIContentMode">1</int>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
@@ -254,7 +255,7 @@
 						</object>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">GUI-911_twitter.png</string>
+							<string key="NSResourceName">BG-twitter.png</string>
 						</object>
 						<object class="IBUIFontDescription" key="IBUIFontDescription">
 							<int key="type">2</int>
@@ -613,9 +614,9 @@
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
 		<dictionary class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="GUI-911_background.png">{640, 980}</string>
-			<string key="GUI-911_logo.png">{551, 217}</string>
-			<string key="GUI-911_twitter.png">{87, 74}</string>
+			<string key="BG-background.png">{640, 980}</string>
+			<string key="BG-logo.png">{551, 217}</string>
+			<string key="BG-twitter.png">{87, 74}</string>
 		</dictionary>
 		<string key="IBCocoaTouchPluginVersion">2083</string>
 	</data>
