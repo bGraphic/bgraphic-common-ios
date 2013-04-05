@@ -13,13 +13,19 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" alpha="0.60000000000000009" contentMode="scaleToFill" image="BG-background.png" translatesAutoresizingMaskIntoConstraints="NO" id="FTd-9h-zcr"/>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="94G-xD-Nrf" customClass="BGSearchBar">
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="FTd-9h-zcr" firstAttribute="trailing" secondItem="qxb-n8-gl5" secondAttribute="trailing" type="default" id="2Lq-Sx-QIS"/>
+                            <constraint firstItem="94G-xD-Nrf" firstAttribute="top" secondItem="qxb-n8-gl5" secondAttribute="top" type="default" id="9QV-Dn-erw"/>
                             <constraint firstItem="FTd-9h-zcr" firstAttribute="top" secondItem="qxb-n8-gl5" secondAttribute="top" type="default" id="LvA-C0-V9Y"/>
                             <constraint firstItem="FTd-9h-zcr" firstAttribute="bottom" secondItem="qxb-n8-gl5" secondAttribute="bottom" type="default" id="Oai-Du-e4J"/>
+                            <constraint firstItem="94G-xD-Nrf" firstAttribute="leading" secondItem="qxb-n8-gl5" secondAttribute="leading" type="default" id="SEw-Oy-Sc4"/>
                             <constraint firstItem="FTd-9h-zcr" firstAttribute="leading" secondItem="qxb-n8-gl5" secondAttribute="leading" type="default" id="fDV-aF-zkj"/>
+                            <constraint firstItem="94G-xD-Nrf" firstAttribute="trailing" secondItem="qxb-n8-gl5" secondAttribute="trailing" type="default" id="gOs-T2-eRz"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ikc-jg-ZL0"/>
@@ -55,6 +61,9 @@
     <classes>
         <class className="BGInfoNavigationControllerDelegate" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BGInfoNavigationControllerDelegate.h"/>
+        </class>
+        <class className="BGSearchBar" superclassName="UISearchBar">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BGSearchBar.h"/>
         </class>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

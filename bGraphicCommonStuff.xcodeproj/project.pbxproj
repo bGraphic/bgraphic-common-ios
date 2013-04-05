@@ -23,6 +23,7 @@
 		134EA9E1170DC23500F4D166 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 134EA9D5170DC23500F4D166 /* Localizable.strings */; };
 		134EA9E2170DC23500F4D166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 134EA9D6170DC23500F4D166 /* main.m */; };
 		134EA9E4170DC23500F4D166 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 134EA9D9170DC23500F4D166 /* Storyboard.storyboard */; };
+		13C82F0B170EFBFB0066B31E /* BGSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 13C82F0A170EFBFB0066B31E /* BGSearchBar.m */; };
 		13F9CE17170D815200393D3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F9CE16170D815200393D3A /* UIKit.framework */; };
 		13F9CE19170D815200393D3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F9CE18170D815200393D3A /* Foundation.framework */; };
 		13F9CE1B170D815200393D3A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13F9CE1A170D815200393D3A /* CoreGraphics.framework */; };
@@ -55,6 +56,8 @@
 		134EA9D6170DC23500F4D166 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		134EA9D8170DC23500F4D166 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		134EA9D9170DC23500F4D166 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		13C82F09170EFBFB0066B31E /* BGSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGSearchBar.h; sourceTree = "<group>"; };
+		13C82F0A170EFBFB0066B31E /* BGSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGSearchBar.m; sourceTree = "<group>"; };
 		13F9CE13170D815200393D3A /* bGraphicCommonStuff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bGraphicCommonStuff.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F9CE16170D815200393D3A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13F9CE18170D815200393D3A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +95,8 @@
 				134EA9C0170DC22A00F4D166 /* BGInfoViewController.h */,
 				134EA9C1170DC22A00F4D166 /* BGInfoViewController.m */,
 				134EA9C2170DC22A00F4D166 /* BGInfoViewController.xib */,
+				13C82F09170EFBFB0066B31E /* BGSearchBar.h */,
+				13C82F0A170EFBFB0066B31E /* BGSearchBar.m */,
 			);
 			path = bGraphicCommonStuff;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				134EA9C8170DC22A00F4D166 /* BGInfoViewController.m in Sources */,
 				134EA9DA170DC23500F4D166 /* BGAppDelegate.m in Sources */,
 				134EA9E2170DC23500F4D166 /* main.m in Sources */,
+				13C82F0B170EFBFB0066B31E /* BGSearchBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
