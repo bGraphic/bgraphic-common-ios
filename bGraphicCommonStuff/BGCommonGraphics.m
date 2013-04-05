@@ -25,7 +25,8 @@ static NSString * const kBGBackgroundImage = @"BG-background.png";
 {
     UIView *backgroundView = [BGCommonGraphics backgroundView];
     backgroundView.frame = view.bounds;
-    
+    backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
+
     [view insertSubview:backgroundView atIndex:0];
 }
 

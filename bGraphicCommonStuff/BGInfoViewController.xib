@@ -41,7 +41,7 @@
 				<array class="NSMutableArray" key="NSSubviews">
 					<object class="IBUILabel" id="144506335">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">1316</int>
+						<int key="NSvFlags">1325</int>
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrame">{{22, 57}, {275, 101}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
@@ -81,7 +81,7 @@
 					</object>
 					<object class="IBUIButton" id="790741400">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">1316</int>
+						<int key="NSvFlags">1325</int>
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrame">{{0, 283}, {320, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
@@ -113,7 +113,7 @@
 					</object>
 					<object class="IBUIButton" id="369082428">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">1316</int>
+						<int key="NSvFlags">1325</int>
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrame">{{0, 193}, {320, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
@@ -135,7 +135,7 @@
 					</object>
 					<object class="IBUIButton" id="764499037">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">1316</int>
+						<int key="NSvFlags">1325</int>
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrame">{{-2, 149}, {320, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
@@ -180,7 +180,7 @@
 					</object>
 					<object class="IBUIButton" id="836946215">
 						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">1316</int>
+						<int key="NSvFlags">1325</int>
 						<object class="NSPSMatrix" key="NSFrameMatrix"/>
 						<string key="NSFrame">{{0, 238}, {320, 44}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
