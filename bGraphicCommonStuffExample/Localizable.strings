@@ -17,7 +17,7 @@
 "e-mail_error_alert_title" = "Failed";
 "e-mail_error_alert_message" = "E-mail was not sent, try again.";
 
-"share_mail_title" = "911Caller, an app recommendation";
-"share_mail_body" = "Check out the app: International 911Caller, you can download it from <a href='%@'>iTunes.</a>";
+"share_mail_title" = "Test, an app recommendation";
+"share_mail_body" = "Check out the app: Test, you can download it from <a href='%@'>iTunes.</a>";
 
-"support_mail_title" = "Support for the app: 911Caller";
+"support_mail_title" = "Support for the app: Test";
