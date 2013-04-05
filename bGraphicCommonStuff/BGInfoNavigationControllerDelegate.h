@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface BGInfoNavigationControllerDelegate : NSObject
+@interface BGInfoNavigationControllerDelegate : NSObject <UINavigationControllerDelegate>
 
 @property (strong, nonatomic) NSDictionary *infoDict;
 
