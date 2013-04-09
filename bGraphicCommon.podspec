@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://raae@bitbucket.org/raae/bgraphic-common-stuff.git", :tag => "1.0" }
   s.platform     = :ios, '5.0'
   s.source_files = 'bGraphicCommonStuff/*.{h,m}'
-  s.resources = "bGraphicCommonStuff/*.png"
+  s.resources = "bGraphicCommonStuff/*.{png,xib}"
   s.requires_arc = true
   s.dependency 'TestFlightSDK', '~> 1.2.4'
   s.framework = 'MessageUI'

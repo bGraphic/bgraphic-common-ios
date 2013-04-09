@@ -58,17 +58,6 @@
     <resources>
         <image name="BG-background.png" width="640" height="980"/>
     </resources>
-    <classes>
-        <class className="BGInfoNavigationControllerDelegate" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BGInfoNavigationControllerDelegate.h"/>
-        </class>
-        <class className="BGSearchBar" superclassName="UISearchBar">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/BGSearchBar.h"/>
-        </class>
-        <class className="NSLayoutConstraint" superclassName="NSObject">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
