@@ -18,7 +18,7 @@ static NSString * const kBGAppBaseUrl = @"http://itunes.apple.com/app/id%@";
 static NSString * const kBGAppReviewBaseUrl = @"itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=%@";
 static NSString * const kBGDevAppStoreBaseUrl = @"itms-apps://ax.itunes.apple.com/artist/id%@";
 static NSString * const kBGTwitterHttpBaseUrl = @"http://twitter.com/%@";
-static NSString * const kBGTwitterAppBaserUrl = @"twitter:///user?screen_name=%@";
+static NSString * const kBGTwitterAppBaseUrl = @"twitter:///user?screen_name=%@";
 
 @interface BGInfoViewController ()
 -(BOOL)openUrl:(NSString *)urlString;
@@ -105,12 +105,12 @@ static NSString * const kBGTwitterAppBaserUrl = @"twitter:///user?screen_name=%@
 }
 
 - (IBAction)twitterAction:(id)sender {
-    NSString *twitterUrl = [NSString stringWithFormat:kBGTwitterHttpBaseUrl, kBGtwitterHandler];
+    NSString *twitterUrl = [NSString stringWithFormat:kBGTwitterAppBaseUrl, kBGtwitterHandler];
     
     [TestFlight passCheckpoint:@"TWITTER"];
     
     if(![self openUrl:twitterUrl]) {
-        twitterUrl = [NSString stringWithFormat:kBGTwitterAppBaserUrl, kBGtwitterHandler];
+        twitterUrl = [NSString stringWithFormat:kBGTwitterHttpBaseUrl, kBGtwitterHandler];
         [self openUrl:twitterUrl];
     }
 }
