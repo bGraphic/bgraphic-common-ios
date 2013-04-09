@@ -10,7 +10,8 @@
 
 @interface BGSearchBar : UISearchBar
 
-@property UIView *borderView;
 @property (nonatomic, strong) UIColor *borderColor;
+
+- (void) setBorderHidden:(BOOL) hidden;
 
 @end

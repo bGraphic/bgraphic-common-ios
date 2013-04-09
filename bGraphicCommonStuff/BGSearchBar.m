@@ -8,6 +8,12 @@
 
 #import "BGSearchBar.h"
 
+@interface BGSearchBar ()
+
+@property UIView *borderView;
+
+@end
+
 @implementation BGSearchBar
 
 - (void)drawRect:(CGRect)rect
@@ -50,4 +56,14 @@
     
     [self insertSubview:searchBackground atIndex:0];
 }
+
+
+- (void) setBorderHidden:(BOOL) hidden
+{
+    NSString *reqSysVer = @"6.0";
+    NSString *currSysVer = [[UIDevice currentDevice] systemVersion];
+    if ([currSysVer compare:reqSysVer options:NSNumericSearch] != NSOrderedAscending)
+        self.borderView.hidden = hidden;
+}
+
 @end
