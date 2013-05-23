@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://bgraphic.no"
   s.license	     = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "raae" => "raae@bgraphic.no" }
-  s.source       = { :git => "https://raae@bitbucket.org/raae/bgraphic-common-stuff.git", :tag => "1.0" }
+  s.source       = { :git => "git@bitbucket.org:raae/bgraphic-common-stuff.git", :tag => "1.0" }
   s.platform     = :ios, '5.0'
   s.source_files = 'bGraphicCommonStuff/*.{h,m}'
   s.resources = "bGraphicCommonStuff/*.{png,xib}"
