@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "bGraphicCommon"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "Common gfx and other stuff for bGraphic projects."
   s.homepage     = "http://bgraphic.no"
   s.license	     = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "raae" => "raae@bgraphic.no" }
-  s.source       = { :git => "git@bitbucket.org:raae/bgraphic-common-stuff.git", :tag => "1.0" }
+  s.source       = { :git => "git@bitbucket.org:raae/bgraphic-common-stuff.git", :tag => "1.1" }
   s.platform     = :ios, '5.0'
   s.source_files = 'bGraphicCommonStuff/*.{h,m}'
   s.resources = "bGraphicCommonStuff/*.{png,xib}"
