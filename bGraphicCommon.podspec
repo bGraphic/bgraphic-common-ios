@@ -10,6 +10,6 @@ Pod::Spec.new do |s|
   s.source_files = 'bGraphicCommonStuff/*.{h,m}'
   s.resources = "bGraphicCommonStuff/*.{png,xib}"
   s.requires_arc = true
-  s.dependency 'TestFlightSDK', '~> 1.2.4'
+  s.dependency 'TestFlightSDK'
   s.framework = 'MessageUI'
 end
