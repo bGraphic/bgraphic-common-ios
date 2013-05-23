@@ -406,15 +406,6 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">rateAppAction:</string>
-						<reference key="source" ref="764499037"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">66</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
 						<string key="label">moreAppsAction:</string>
 						<reference key="source" ref="764499037"/>
 						<reference key="destination" ref="372490531"/>

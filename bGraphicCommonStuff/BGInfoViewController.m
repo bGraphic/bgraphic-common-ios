@@ -127,8 +127,10 @@ static NSString * const kBGTwitterAppBaseUrl = @"twitter:///user?screen_name=%@"
     NSURL *url = [[NSURL alloc] initWithString:urlString];
     
     if ([appDelegate openURL:url]) {
+        NSLog(@"Opened url: %@", urlString);
         return true;
     } else {
+        NSLog(@"Could not open url: %@", urlString);
         return false;
     }
 }
@@ -178,6 +180,7 @@ static NSString * const kBGTwitterAppBaseUrl = @"twitter:///user?screen_name=%@"
             [controller dismissModalViewControllerAnimated:YES];
 			break;
 		default:
+            NSLog(@"Could not send e-mail: %@", error.description);
             [alert show];
 			break;
 	}
