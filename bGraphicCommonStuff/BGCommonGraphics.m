@@ -24,7 +24,15 @@ static NSString * const kBGBackgroundImage = @"BG-background.png";
 + (void) addBackgroundToView:(UIView *) view
 {
     UIView *backgroundView = [BGCommonGraphics backgroundView];
+    
+    // if ios7 or later, offset the background by the height of the status bar
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_7
+    CGFloat offset = [UIApplication sharedApplication].statusBarFrame.size.height;
+    backgroundView.frame = CGRectMake(view.bounds.origin.x, view.bounds.origin.y + offset, view.bounds.size.width, view.bounds.size.height - offset);
+#else
     backgroundView.frame = view.bounds;
+#endif
+    
     backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
 
     [view insertSubview:backgroundView atIndex:0];
