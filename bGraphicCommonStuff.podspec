@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "bGraphicCommonStuff"
-  s.version      = "0.1.0"
+  s.version      = "1.0.0"
   s.summary      = "Reusable bGraphic stuff."
   s.homepage     = "http://bgraphic.no"
   s.license      = 'MIT'
   s.author       = { "raae" => "raae@bgraphic.no" }
-  s.source       = { :git => "git@github.com:bGraphic/bGraphic-common-ios.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/bGraphic/bgraphic-common-ios.git", :tag => s.version.to_s }
   
   s.platform     = :ios, '5.0'
   s.ios.deployment_target = '5.0'
