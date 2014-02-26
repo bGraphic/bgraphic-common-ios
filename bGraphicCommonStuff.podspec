@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/ios/*.{h,m}'
   s.resources = 'Assets/*.{png,storyboard,xib}'
   
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse/Parse.framework/Headers"' }
-  
   s.dependency 'TestFlightSDK', '~> 3.0'
   s.framework = 'MessageUI'
 end
