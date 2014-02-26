@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.source_files = 'Classes/ios/*.{h,m}'
-  s.resources = 'Assets/*.{png,storyboard}'
+  s.resources = 'Assets/*.{png,storyboard,xib}'
   
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '"$(PODS_ROOT)/Parse/Parse.framework/Headers"' }
   

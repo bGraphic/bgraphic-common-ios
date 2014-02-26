@@ -10,10 +10,8 @@
 		13BF989D18BE0BB00009F188 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BF989C18BE0BB00009F188 /* Foundation.framework */; };
 		13BF989F18BE0BB00009F188 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BF989E18BE0BB00009F188 /* CoreGraphics.framework */; };
 		13BF98A118BE0BB00009F188 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BF98A018BE0BB00009F188 /* UIKit.framework */; };
-		13BF98A718BE0BB00009F188 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13BF98A518BE0BB00009F188 /* InfoPlist.strings */; };
 		13BF98A918BE0BB00009F188 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BF98A818BE0BB00009F188 /* main.m */; };
 		13BF98AD18BE0BB00009F188 /* BGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BF98AC18BE0BB00009F188 /* BGAppDelegate.m */; };
-		13BF98B018BE0BB00009F188 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BF98AE18BE0BB00009F188 /* Storyboard.storyboard */; };
 		13BF98B318BE0BB00009F188 /* BGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BF98B218BE0BB00009F188 /* BGViewController.m */; };
 		13BF98B518BE0BB00009F188 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BF98B418BE0BB00009F188 /* Images.xcassets */; };
 		13BF98BC18BE0BB00009F188 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13BF98BB18BE0BB00009F188 /* XCTest.framework */; };
@@ -23,6 +21,7 @@
 		13BF98C818BE0BB00009F188 /* bGraphicCommonStuffTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BF98C718BE0BB00009F188 /* bGraphicCommonStuffTests.m */; };
 		13BF98D718BE43B70009F188 /* InfoPage.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13BF98D518BE43B70009F188 /* InfoPage.plist */; };
 		13BF98D818BE43B70009F188 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 13BF98D618BE43B70009F188 /* Localizable.strings */; };
+		13BF98DD18BE48C90009F188 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13BF98DC18BE48C90009F188 /* Storyboard.storyboard */; };
 		637916B9B9CD4F63A18B1533 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 026BD130734344E7AD737442 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,12 +42,10 @@
 		13BF989E18BE0BB00009F188 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		13BF98A018BE0BB00009F188 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		13BF98A418BE0BB00009F188 /* bGraphicCommonStuff-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "bGraphicCommonStuff-Info.plist"; sourceTree = "<group>"; };
-		13BF98A618BE0BB00009F188 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		13BF98A818BE0BB00009F188 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		13BF98AA18BE0BB00009F188 /* bGraphicCommonStuff-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bGraphicCommonStuff-Prefix.pch"; sourceTree = "<group>"; };
 		13BF98AB18BE0BB00009F188 /* BGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGAppDelegate.h; sourceTree = "<group>"; };
 		13BF98AC18BE0BB00009F188 /* BGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGAppDelegate.m; sourceTree = "<group>"; };
-		13BF98AF18BE0BB00009F188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 		13BF98B118BE0BB00009F188 /* BGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGViewController.h; sourceTree = "<group>"; };
 		13BF98B218BE0BB00009F188 /* BGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGViewController.m; sourceTree = "<group>"; };
 		13BF98B418BE0BB00009F188 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -59,6 +56,7 @@
 		13BF98C718BE0BB00009F188 /* bGraphicCommonStuffTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bGraphicCommonStuffTests.m; sourceTree = "<group>"; };
 		13BF98D518BE43B70009F188 /* InfoPage.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InfoPage.plist; sourceTree = "<group>"; };
 		13BF98D618BE43B70009F188 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		13BF98DC18BE48C90009F188 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		3A2400C9F7C143098D77E4CE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,9 +120,9 @@
 		13BF98A218BE0BB00009F188 /* bGraphicCommonStuff */ = {
 			isa = PBXGroup;
 			children = (
+				13BF98DC18BE48C90009F188 /* Storyboard.storyboard */,
 				13BF98AB18BE0BB00009F188 /* BGAppDelegate.h */,
 				13BF98AC18BE0BB00009F188 /* BGAppDelegate.m */,
-				13BF98AE18BE0BB00009F188 /* Storyboard.storyboard */,
 				13BF98B118BE0BB00009F188 /* BGViewController.h */,
 				13BF98B218BE0BB00009F188 /* BGViewController.m */,
 				13BF98B418BE0BB00009F188 /* Images.xcassets */,
@@ -139,7 +137,6 @@
 				13BF98D518BE43B70009F188 /* InfoPage.plist */,
 				13BF98D618BE43B70009F188 /* Localizable.strings */,
 				13BF98A418BE0BB00009F188 /* bGraphicCommonStuff-Info.plist */,
-				13BF98A518BE0BB00009F188 /* InfoPlist.strings */,
 				13BF98A818BE0BB00009F188 /* main.m */,
 				13BF98AA18BE0BB00009F188 /* bGraphicCommonStuff-Prefix.pch */,
 			);
@@ -244,10 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13BF98D818BE43B70009F188 /* Localizable.strings in Resources */,
+				13BF98DD18BE48C90009F188 /* Storyboard.storyboard in Resources */,
 				13BF98B518BE0BB00009F188 /* Images.xcassets in Resources */,
 				13BF98D718BE43B70009F188 /* InfoPage.plist in Resources */,
-				13BF98A718BE0BB00009F188 /* InfoPlist.strings in Resources */,
-				13BF98B018BE0BB00009F188 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,22 +320,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		13BF98A518BE0BB00009F188 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13BF98A618BE0BB00009F188 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		13BF98AE18BE0BB00009F188 /* Storyboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13BF98AF18BE0BB00009F188 /* Base */,
-			);
-			name = Storyboard.storyboard;
-			sourceTree = "<group>";
-		};
 		13BF98C418BE0BB00009F188 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
