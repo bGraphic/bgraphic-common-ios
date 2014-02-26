@@ -1,0 +1,2 @@
+pod "bGraphicCommonStuff", :path => "../bGraphicCommonStuff.podspec"
+inhibit_all_warnings!

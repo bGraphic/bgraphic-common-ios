@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>71229E99-A0C7-473D-A6AE-D21ECC008A2A</string>
+	<string>259D7470-7164-41B8-AE43-96E99F2C35A2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>bGraphicCommonStuff</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>ssh://github.com/bGraphic/bGraphic-common-ios.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>bGraphicCommonStuff.xcworkspace</string>
+	<string>Project/bGraphicCommonStuff.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>823EC82E-EC75-40E0-880E-D649912E9BB8</key>
-		<string>..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/bGraphic/bGraphic-common-ios.git</string>

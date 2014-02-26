@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>AE0BC1D4-3521-402B-BFC5-57D983EA8E95</string>
+	<key>IDESourceControlProjectName</key>
+	<string>bGraphicCommonStuff</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>823EC82E-EC75-40E0-880E-D649912E9BB8</key>
+		<string>ssh://github.com/bGraphic/bGraphic-common-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Project/bGraphicCommonStuff/bGraphicCommonStuff.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>823EC82E-EC75-40E0-880E-D649912E9BB8</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/bGraphic/bGraphic-common-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>823EC82E-EC75-40E0-880E-D649912E9BB8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>823EC82E-EC75-40E0-880E-D649912E9BB8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>bGraphic-common-ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>
