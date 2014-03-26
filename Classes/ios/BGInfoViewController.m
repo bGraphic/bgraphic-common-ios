@@ -43,6 +43,9 @@ static NSString * const kBGTwitterAppBaseUrl = @"twitter:///user?screen_name=%@"
     UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(closeInfoAction:)];
     self.navigationItem.rightBarButtonItem = doneButton;
     
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    
     [self.infoText setText:NSLocalizedString(@"info_text", nil)];
     
     [self.rateAppButton setTitle:NSLocalizedString(@"rate_app", nil) forState:UIControlStateNormal];
