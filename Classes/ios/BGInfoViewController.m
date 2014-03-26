@@ -38,15 +38,17 @@ static NSString * const kBGTwitterAppBaseUrl = @"twitter:///user?screen_name=%@"
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
     
+    self.title = NSLocalizedString(@"info_title", nil);
+    
+    UIBarButtonItem *doneButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemDone target:self action:@selector(closeInfoAction:)];
+    self.navigationItem.rightBarButtonItem = doneButton;
+    
     [self.infoText setText:NSLocalizedString(@"info_text", nil)];
     
     [self.rateAppButton setTitle:NSLocalizedString(@"rate_app", nil) forState:UIControlStateNormal];
     [self.shareButton setTitle:NSLocalizedString(@"share_app", nil) forState:UIControlStateNormal];
     [self.supportButton setTitle:NSLocalizedString(@"support", nil) forState:UIControlStateNormal];
     [self.moreAppsButton setTitle:NSLocalizedString(@"more_apps", nil) forState:UIControlStateNormal];
-    
-    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
-        self.edgesForExtendedLayout = UIRectEdgeNone;
     
     [BGCommonGraphics addBackgroundToView:self.view];
 }
@@ -190,13 +192,14 @@ static NSString * const kBGTwitterAppBaseUrl = @"twitter:///user?screen_name=%@"
     
 }
 
-+ (BGInfoViewController *) infoViewWithDict:(NSDictionary *) infoDict
++ (UINavigationController *) infoViewInNavigationControllerWithDict:(NSDictionary *) infoDict
 {
     BGInfoViewController *infoViewController = [[BGInfoViewController alloc] initWithNibName:@"BGInfoViewController" bundle:[NSBundle mainBundle]];
-
     infoViewController.infoDict = [[NSDictionary alloc] initWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"InfoPage" ofType:@"plist"]];
     
-    return infoViewController;
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:infoViewController];
+    
+    return navController;
 }
 
 

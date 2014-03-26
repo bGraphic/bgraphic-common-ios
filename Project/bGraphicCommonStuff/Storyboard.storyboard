@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" initialViewController="KIh-3V-xxf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5053" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="KIh-3V-xxf">
     <dependencies>
         <deployment defaultVersion="1296" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
@@ -8,21 +8,16 @@
         <!--View Controller-->
         <scene sceneID="Ff0-M1-wts">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6tu-qr-1t5" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Zrp-Ji-dhn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qxb-n8-gl5">
-                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.60000000000000009" contentMode="scaleToFill" image="BG-background.png" id="FTd-9h-zcr">
-                                <rect key="frame" x="0.0" y="-32" width="320" height="568"/>
-                            </imageView>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.83137254900000002" green="0.33333333329999998" blue="0.1647058824" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ikc-jg-ZL0"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="6tu-qr-1t5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="819" y="51"/>
         </scene>
@@ -47,9 +42,6 @@
             <point key="canvasLocation" x="293" y="51"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="BG-background.png" width="640" height="980"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

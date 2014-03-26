@@ -29,6 +29,6 @@
 - (IBAction)closeInfoAction:(id)sender;
 
 
-+ (BGInfoViewController *) infoViewWithDict:(NSDictionary *) infoDict;
++ (UINavigationController *) infoViewInNavigationControllerWithDict:(NSDictionary *) infoDict;
 
 @end

@@ -33,7 +33,7 @@
 
 - (void)infoButtonAction: (id)sender  {
     
-    BGInfoViewController *infoViewController = [BGInfoViewController infoViewWithDict:self.infoDict];
+    UINavigationController *infoViewController = [BGInfoViewController infoViewInNavigationControllerWithDict:self.infoDict];
     
     UIButton *infoButton = (UIButton *) sender;
     

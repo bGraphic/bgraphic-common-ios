@@ -84,20 +84,6 @@
                         <action selector="moreAppsAction:" destination="-1" eventType="touchUpInside" id="68"/>
                     </connections>
                 </button>
-                <navigationBar contentMode="scaleToFill" id="50">
-                    <rect key="frame" x="0.0" y="18" width="320" height="44"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                    <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="-20"/>
-                    <items>
-                        <navigationItem title="Info" id="53">
-                            <barButtonItem key="rightBarButtonItem" systemItem="done" id="54">
-                                <connections>
-                                    <action selector="closeInfoAction:" destination="-1" id="64"/>
-                                </connections>
-                            </barButtonItem>
-                        </navigationItem>
-                    </items>
-                </navigationBar>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" id="51">
                     <rect key="frame" x="0.0" y="251" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
@@ -154,6 +140,7 @@
             <color key="backgroundColor" red="0.96862751245498657" green="0.96862751245498657" blue="0.96862751245498657" alpha="1" colorSpace="deviceRGB"/>
             <color key="tintColor" red="0.83137254901960778" green="0.33333333333333331" blue="0.16470588235294117" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
             <inset key="insetFor6xAndEarlier" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
         </view>
