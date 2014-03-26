@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "bGraphicCommonStuff"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "Reusable bGraphic stuff."
   s.homepage     = "http://bgraphic.no"
   s.license      = 'MIT'
