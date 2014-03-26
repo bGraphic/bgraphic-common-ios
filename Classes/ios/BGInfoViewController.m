@@ -45,6 +45,9 @@ static NSString * const kBGTwitterAppBaseUrl = @"twitter:///user?screen_name=%@"
     [self.supportButton setTitle:NSLocalizedString(@"support", nil) forState:UIControlStateNormal];
     [self.moreAppsButton setTitle:NSLocalizedString(@"more_apps", nil) forState:UIControlStateNormal];
     
+    if ([self respondsToSelector:@selector(edgesForExtendedLayout)])
+        self.edgesForExtendedLayout = UIRectEdgeNone;
+    
     [BGCommonGraphics addBackgroundToView:self.view];
 }
 
